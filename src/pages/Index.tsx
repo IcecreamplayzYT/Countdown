@@ -2,11 +2,10 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 const Index = () => {
   return <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
       <div className="text-center mb-12 md:mb-16">
-        <h1 className="text-6xl md:text-8xl text-foreground mb-6 tracking-tight text-center lg:text-7xl font-extrabold">Countdown to starlit release</h1>
+        <h1 className="text-6xl md:text-8xl text-foreground mb-6 tracking-tight text-center font-extrabold lg:text-9xl">Countdown to</h1>
         <div className="inline-block bg-primary px-6 py-3 rounded-lg">
-          <span className="text-primary-foreground font-bold text-lg md:text-xl">
-            to 2026 ↗
-          </span>
+          <span className="text-primary-foreground font-bold text-lg md:text-xl">Starlit Release Date
+        </span>
         </div>
       </div>
       
