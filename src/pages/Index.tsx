@@ -1,11 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { CountdownTimer } from "@/components/CountdownTimer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
+      <div className="text-center mb-12 md:mb-16">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-black text-foreground mb-6 tracking-tight">
+          countdown
+        </h1>
+        <div className="inline-block bg-primary px-6 py-3 rounded-lg">
+          <span className="text-primary-foreground font-bold text-lg md:text-xl">
+            to 2026 ↗
+          </span>
+        </div>
+      </div>
+      
+      <CountdownTimer />
+      
+      <div className="mt-16 text-muted-foreground text-sm">
+        Counting down to January 1, 2026
       </div>
     </div>
   );
